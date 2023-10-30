@@ -13,8 +13,8 @@ NuxtJs RTLCSS Module to build Cascading Style Sheets (CSS) with Left-To-Right (L
 
 ## Features
 
-- ⛰ &nbsp;Auto RTL All Styles
-- Nuxt 3
+- 🙂 &nbsp;Auto RTL All Styles
+- ⛰ Nuxt 3
 
 ## Quick Setup
 
@@ -37,14 +37,23 @@ npm install --save-dev nuxt-rtlcss
 export default defineNuxtConfig({
   modules: [
     // "@nuxtjs/tailwindcss" or any styled base module
+    // ...
     "nuxt-rtlcss",
   ],
+  rtlcss: {
+    // ... options
+  },
 });
 ```
 
-> ⚠️ make sure load `nuxt-rtlcss` module at the end of `modules` list.
+> ⚠️ make sure load `rtlcss` module at the end of `modules` list.
 
 That's it! You can now use RTLCSS Module in your Nuxt app ✨
+
+## Options
+
+- Add `nuxt-rtlcss` to the root of `nuxt.config.ts`
+- Read options and more informations at [elchininet/postcss-rtlcss](https://github.com/elchininet/postcss-rtlcss/tree/v4.0.8) repository
 
 ## Development
 
