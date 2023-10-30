@@ -44,7 +44,7 @@ export default defineNuxtConfig({
 
 > ⚠️ make sure load `nuxt-rtlcss` module at the end of `modules` list.
 
-That's it! You can now use My Module in your Nuxt app ✨
+That's it! You can now use RTLCSS Module in your Nuxt app ✨
 
 ## Development
 
