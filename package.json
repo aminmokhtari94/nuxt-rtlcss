@@ -4,6 +4,19 @@
   "description": "PostCSS RTLCSS Nuxt module",
   "repository": "aminmokhtari94/nuxt-rtlcss",
   "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "nuxtjs",
+    "nuxt-module",
+    "css",
+    "rtl",
+    "ltr",
+    "right-to-left",
+    "left-to-right",
+    "postcss-rtlcss",
+    "postcss",
+    "rtlcss"
+  ],
   "type": "module",
   "exports": {
     ".": {
