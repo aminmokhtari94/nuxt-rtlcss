@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.2.1
+
+[compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.0...v1.2.1)
+
+### 🩹 Fixes
+
+- Types ([fe11ffd](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/fe11ffd))
+
+### ❤️ Contributors
+
+- Amin Mokhtari <amin.mokhtari94@gmail.com>
+
 ## v1.2.0
 
 [compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.1.2...v1.2.0)
