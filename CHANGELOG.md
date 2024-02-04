@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.2.0
+
+[compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.1.2...v1.2.0)
+
+### 🚀 Enhancements
+
+- Use postcss-rtlcss-extra to handle vender ignores ([4e67507](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/4e67507))
+
+### 🏡 Chore
+
+- **release:** V1.1.2 ([2de4de1](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/2de4de1))
+
+### ❤️ Contributors
+
+- Amin Mokhtari <amin.mokhtari94@gmail.com>
+- Amin.mokhtari94@gmail.com <amin.mokhtari94@gmail.com>
+
 ## v1.1.2
 
 [compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.1.1...v1.1.2)
