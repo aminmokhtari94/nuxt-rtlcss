@@ -1,5 +1,5 @@
 import { defineNuxtModule, getNuxtVersion, installModule } from "@nuxt/kit";
-import type { RTLCSSModuleOptions } from "./types";
+import type { RTLCSSModuleOptions } from "postcss-rtlcss-extra";
 
 export default defineNuxtModule<RTLCSSModuleOptions>({
   meta: {
@@ -16,7 +16,7 @@ export default defineNuxtModule<RTLCSSModuleOptions>({
         .postcssOptions /* older nuxt3 */ /* @ts-ignore */ ||
       (nuxt.options.build.postcss as any);
     postcssOptions.plugins = postcssOptions.plugins || {};
-    postcssOptions.plugins["postcss-rtlcss"] = options || {};
+    postcssOptions.plugins["postcss-rtlcss-extra"] = options || {};
 
     // install postcss8 module on nuxt < 2.16
     if (parseFloat(getNuxtVersion()) < 2.16) {

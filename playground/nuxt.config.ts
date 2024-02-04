@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['../src/module'],
+  modules: ["../src/module"],
   rtlcss: {},
-  devtools: { enabled: true }
-})
+  devtools: { enabled: true },
+});
