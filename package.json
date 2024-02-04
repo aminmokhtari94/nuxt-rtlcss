@@ -1,6 +1,6 @@
 {
   "name": "nuxt-rtlcss",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "PostCSS RTLCSS Nuxt module",
   "repository": "aminmokhtari94/nuxt-rtlcss",
   "author": {
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.10.0",
-    "postcss-rtlcss-extra": "^0.0.6"
+    "postcss-rtlcss-extra": "^0.0.8"
   },
   "devDependencies": {
     "@types/node": "^20.11.13",
