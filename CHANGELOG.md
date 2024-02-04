@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.2.4
+
+[compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.3...v1.2.4)
+
+### 🩹 Fixes
+
+- Postcss-rtlcss ([91b1830](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/91b1830))
+
+### ❤️ Contributors
+
+- Amin Mokhtari <amin.mokhtari94@gmail.com>
+
 ## v1.2.3
 
 [compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.2...v1.2.3)
