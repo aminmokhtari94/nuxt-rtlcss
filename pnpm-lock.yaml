@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.10.0
     version: 3.10.0(rollup@3.29.4)
   postcss-rtlcss-extra:
-    specifier: ^0.0.6
-    version: 0.0.6(postcss@8.4.33)
+    specifier: ^0.0.8
+    version: 0.0.8(postcss@8.4.33)
 
 devDependencies:
   '@nuxt/devtools':
@@ -6924,8 +6924,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-rtlcss-extra@0.0.6(postcss@8.4.33):
-    resolution: {integrity: sha512-RO9AH1Fl67n9wsKagdqPmzgHzc+aTgbTk5TAVB8gGHq2GlzXnEXnqQBElfm8924OJH+Yj+u+CxVAbnl/PcjL6A==}
+  /postcss-rtlcss-extra@0.0.8(postcss@8.4.33):
+    resolution: {integrity: sha512-pwmxDdJehsLNDh+oTfrCRfhPRfTIhBY/t+AOPguDFks6iCNybxgWPtPjUw1d8nmVWblib/4Qcy3I011yVhnLyw==}
     dependencies:
       postcss-rtlcss: 5.1.0(postcss@8.4.33)
     transitivePeerDependencies:

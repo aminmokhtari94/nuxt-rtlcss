@@ -1,7 +1,7 @@
 import { defineNuxtModule, getNuxtVersion, installModule } from "@nuxt/kit";
-// import type { RtlcssOptions } from "postcss-rtlcss-extra";
+import type { RtlcssOptions } from "postcss-rtlcss-extra";
 
-export default defineNuxtModule<any>({
+export default defineNuxtModule<RtlcssOptions>({
   meta: {
     name: "rtlcss",
     configKey: "rtlcss",
