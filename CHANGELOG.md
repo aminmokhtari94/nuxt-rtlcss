@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.2.2
+
+[compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.1...v1.2.2)
+
+### 🩹 Fixes
+
+- Deps ([d1512ed](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/d1512ed))
+
+### ❤️ Contributors
+
+- Amin Mokhtari <amin.mokhtari94@gmail.com>
+
 ## v1.2.1
 
 [compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.0...v1.2.1)
