@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.3.1
+
+[compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.4...v1.3.1)
+
+### 🏡 Chore
+
+- Update dependency ([7c2bd2f](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/7c2bd2f))
+
+### ❤️ Contributors
+
+- Amin Mokhtari <amin.mokhtari94@gmail.com>
+
 ## v1.2.4
 
 [compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.3...v1.2.4)
