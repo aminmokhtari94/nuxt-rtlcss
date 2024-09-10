@@ -47,7 +47,8 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.13.1"
+    "@nuxt/kit": "^3.13.1",
+    "postcss-rtlcss": "^5.4.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.4.1",
@@ -59,7 +60,6 @@
     "changelogen": "^0.5.5",
     "eslint": "^9.9.1",
     "nuxt": "^3.13.0",
-    "postcss-rtlcss": "^5.4.0",
     "typescript": "latest",
     "vitest": "^2.0.5",
     "vue-tsc": "^2.1.6"
