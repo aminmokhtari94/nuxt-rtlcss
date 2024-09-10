@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.3.2
+
+[compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.3.1...v1.3.2)
+
+### 🩹 Fixes
+
+- Remove postcss-rtlcss-extra chore: update dependencies ([c797c77](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/c797c77))
+
+### 🏡 Chore
+
+- **release:** V1.3.1 ([f897b62](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/f897b62))
+
+### ❤️ Contributors
+
+- Amin Mokhtari <amin.mokhtari94@gmail.com>
+
 ## v1.3.1
 
 [compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.2.4...v1.3.1)
