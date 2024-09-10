@@ -1,6 +1,6 @@
 {
   "name": "nuxt-rtlcss",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "PostCSS RTLCSS Nuxt module",
   "repository": "aminmokhtari94/nuxt-rtlcss",
   "author": {
