@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.3.4
+
+[compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.3.3...v1.3.4)
+
+### 🩹 Fixes
+
+- Delete postcss-rtlcss-extra ([35b4a20](https://github.com/aminmokhtari94/nuxt-rtlcss/commit/35b4a20))
+
+### ❤️ Contributors
+
+- Amin Mokhtari <amin.mokhtari94@gmail.com>
+
 ## v1.3.3
 
 [compare changes](https://github.com/aminmokhtari94/nuxt-rtlcss/compare/v1.3.2...v1.3.3)
