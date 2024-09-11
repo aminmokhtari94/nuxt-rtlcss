@@ -1,4 +1,5 @@
 import { defineNuxtModule, getNuxtVersion, installModule } from '@nuxt/kit'
+import postcssRTLCSS from 'postcss-rtlcss'
 
 export enum Mode {
   combined = 'combined',
@@ -49,6 +50,25 @@ export interface RtlcssOptions {
   ignoreFromList?: RegExp[] | string[]
 }
 
+const plugin = (options: RtlcssOptions) => {
+  return (root: any, result: any) => {
+    if (root) {
+      if (
+        result.opts.from
+        && options?.ignoreFromList?.some(i =>
+          new RegExp(i).test(result.opts.from),
+        )
+      )
+        return
+      else
+        return postcssRTLCSS({
+          mode: 'override',
+          ...options,
+        }).Once!(root, undefined as any)
+    }
+  }
+}
+
 export default defineNuxtModule<RtlcssOptions>({
   meta: {
     name: 'rtlcss',
@@ -58,15 +78,41 @@ export default defineNuxtModule<RtlcssOptions>({
   defaults: { mode: 'override' },
   async setup(options, nuxt) {
     // Setup postcss plugin
-    const postcssOptions
-      = nuxt.options.postcss
-      /* nuxt 3 */ /* @ts-expect-error: no build */
-      || nuxt.options.build.postcss.postcssOptions
-      /* older nuxt3 */ /* @ts-expect-error: no build */
-      || nuxt.options.build.postcss
-    postcssOptions.plugins = postcssOptions.plugins || {}
-    postcssOptions.plugins['postcss-rtlcss'] = options || {}
-
+    const css = nuxt.options.vite.css
+    if (css) {
+      if (css.postcss) {
+        if (typeof css.postcss === 'string') {
+          throw 'nuxt-rtlcss: vite.css.postcss in nuxt config file cant`t be string, not supporting!'
+        }
+        else {
+          if (css.postcss.plugins) {
+            css.postcss.plugins.push(plugin(options))
+          }
+          else {
+            css.postcss.plugins = [plugin(options)]
+          }
+        }
+      }
+      else {
+        Object.assign(css, {
+          postcss: {
+            plugins: [
+              plugin(options),
+            ],
+          },
+        })
+      }
+    }
+    else
+      Object.assign(nuxt.options.vite, {
+        css: {
+          postcss: {
+            plugins: [
+              plugin(options),
+            ],
+          },
+        },
+      })
     // install postcss8 module on nuxt < 2.16
     if (Number.parseFloat(getNuxtVersion()) < 2.16) {
       await installModule('@nuxt/postcss8')
